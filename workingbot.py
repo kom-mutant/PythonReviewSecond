@@ -4,7 +4,7 @@ import requests
 import parserbystayer
 
 TOKEN = "1729021146:AAF6RPtBZnvmniwpsayFzrcjVsxQ7J2yZ8k"
-bot = telebot.TeleBot(config.TOKEN)
+abot = telebot.TeleBot(config.TOKEN)
 
 
 @bot.message_handler(commands=['get_news'])
